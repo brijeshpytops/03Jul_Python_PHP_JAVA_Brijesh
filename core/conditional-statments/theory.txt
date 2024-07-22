@@ -1,0 +1,4 @@
+Conditional statements in C are used to perform different actions based on different conditions. The main conditional statements in C are if, if-else, else if, and switch statements. These statements allow you to control the flow of your program by executing different blocks of code depending on whether a condition evaluates to true or false.
+
+if Statement
+The if statement executes a block of code if a specified condition is true.
