@@ -1,0 +1,33 @@
+A loop in C is a control structure that allows the execution of a block of code multiple times based on a condition. It helps in performing repetitive tasks efficiently without writing the same code repeatedly.
+
+Loops are useful for tasks like iterating over an array, summing a series of numbers, or processing each character in a string. For example, to print numbers from 1 to 10, a loop can be used instead of writing multiple printf statements.
+
+In C, there are three primary types of loops:
+
+• For Loop: Iterates over a range of values and is useful when the number of iterations is known.
+
+    A for loop in C is a control flow statement that allows code to be executed repeatedly. It's especially useful for scenarios where the number of iterations is known beforehand. It consists of three parts: initialization, condition, and increment/decrement, which manage the loop's execution.
+    
+    syntax:
+
+    for(starting_point ; condition_for_ending_point ; starting_point_update){
+        //code to be executed
+    }
+
+    for (initialization; condition; update-initialization(inc/dec)) {
+        // code to be executed
+    }   
+
+• While Loop: Continues executing as long as a specified condition remains true.
+    syntax:
+
+    while (condition){
+        //code to be executed
+    }
+
+• Do-While Loop: Executes the loop body at least once before checking the condition.
+    syntax:
+
+    do{
+        //code to be executed
+    }while(condition)
