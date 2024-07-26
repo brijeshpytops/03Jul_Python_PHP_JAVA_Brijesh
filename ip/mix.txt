@@ -1,0 +1,23 @@
+task - 1 : gussing game
+1] puts "Welcome to the guessing game!"
+2] get input from the user: number between 0 to 100 [GUSSING_NUMBER]
+3] generate a random number between 0 to 100 [WINNING_NUMBER]
+
+GUSSING_NUMBER == WINNING_NUMBER:
+puts "Congrats, You win!. (you win after gussing (count) times)"
+
+GUSSING_NUMBER < WINNING_NUMBER :
+puts "Your guess is too low. Try again."
+
+GUSSING_NUMBER > WINNING_NUMBER :
+puts "Your guess is too high. Try again."
+
+4] set Guess counter
+
+5] restart the game if user want to continue
+
+task - 2] bill generator
+task - 3] ticket generator
+task - 4] movie ticket
+task - 5] food order
+task - 6] electicity bill 

@@ -19,6 +19,10 @@ In C, there are three primary types of loops:
     }   
 
 • While Loop: Continues executing as long as a specified condition remains true.
+
+    A while loop in C is a control flow statement that allows code to be executed repeatedly based on a given condition. It continues to execute as long as the condition remains true, and it is particularly useful when the number of iterations is not known beforehand.
+
+    
     syntax:
 
     while (condition){
