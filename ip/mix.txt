@@ -21,3 +21,14 @@ task - 3] ticket generator
 task - 4] movie ticket
 task - 5] food order
 task - 6] electicity bill 
+
+
+31-7-2024]
+-------------------
+1] char name[] = "PyThoN cOde"
+- lower_case - "python code"
+- upper_case - "PYTHON CODE"
+- swap_case - "pYtHOn CoDE"
+- title_case - "Python Code"
+- capitlize_case - "Python code"
+- length_count - 11
