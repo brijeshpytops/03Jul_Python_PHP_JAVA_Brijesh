@@ -25,10 +25,111 @@ task - 6] electicity bill
 
 31-7-2024]
 -------------------
-1] char name[] = "PyThoN cOde"
+7] char name[] = "PyThoN cOde"
 - lower_case - "python code"
 - upper_case - "PYTHON CODE"
 - swap_case - "pYtHOn CoDE"
 - title_case - "Python Code"
 - capitlize_case - "Python code"
 - length_count - 11
+
+
+"PyThoN cOde"
+
+#include <stdio.h>
+
+void lower_case(char arr[], int len){
+    for(int pos = 0; pos<len;pos++){
+        if ((arr[pos] >= 'A') && (arr[pos] <='Z')){
+            printf("%c", arr[pos] + 32);
+            continue;
+        }
+        printf("%c", arr[pos]);
+    }
+}
+
+int main() {
+    char name[] = "PyThoN cOde";
+    
+    // printf("Enter your name: ");
+    // // scanf("%s", &name);
+    // fgets(name, sizeof(name), stdin);
+    int len = sizeof(name)/sizeof(name[0]);
+    lower_case(name, len);
+
+    return 0;
+}
+
+
+TASK - 8] Write a C program to print the following pattern:
+
+
+* * * * * * * * * 
+*   *   *   *   *
+* * *   *   *   *
+*       *   *   *
+* * * * *   *   *
+*           *   *
+* * * * * * *   *
+*               *
+* * * * * * * * *
+
+*
+*   
+* * *  
+*       
+* * * * *   
+*           
+* * * * * * *   
+*               
+* * * * * * * * *
+
+* * * * * * * * * 
+-   *   *   *   *
+- - *   *   *   *
+-       *   *   *
+- - - - *   *   *
+-           *   *
+- - - - - - *   *
+-               *
+- - - - - - - - *
+
+TASK-9] 
+* * * * * 
+  *       * 
+    *       * 
+      *       * 
+        * * * * *
+
+    *****
+   *   *
+  *   *
+ *   *
+*****
+
+
+*     * * * *
+*     *
+*     *
+* * * * * * *
+      *     *
+      *     *
+* * * *     *
+
+**       ** ** ** **
+**       ** ** ** **
+**       **
+**       **
+** ** ** ** ** ** **
+** ** ** ** ** ** **
+         **       **
+         **       **
+         **       **
+** ** ** **       **
+** ** ** **       **
+
+printf("*")
+printf("**")
+printf("***")
+printf("****")
+printf("*****")
