@@ -25,7 +25,7 @@ task - 6] electicity bill
 
 31-7-2024]
 -------------------
-7] char name[] = "PyThoN cOde"
+task - 7] char name[] = "PyThoN cOde"
 - lower_case - "python code"
 - upper_case - "PYTHON CODE"
 - swap_case - "pYtHOn CoDE"
@@ -133,3 +133,34 @@ printf("**")
 printf("***")
 printf("****")
 printf("*****")
+
+Task 10:  write a function for check password. if password is correct then print "password is correct" otherwise "Incorrect password".
+
+- atleast 8 char
+- at least one uppercase letter
+- at least one lowercase letter
+- at least one digit
+- at least one special character [@, _, -, !]
+
+Task 11: write a functions:
+
+s-1] get the input from the users as string
+s-2] function: count lower_case characters
+s-3] function: count upper_case characters
+s-4] function: count digits
+s-5] function: count special characters
+s-6] function: count total words in a given string
+s-7] function: count total characters in a given string
+s-8] function: count the number of vowels in the string.
+s-9] function: count the number of consonants in the string
+
+
+
+Task 12] write a function:
+s-1] get the input from the user as string
+s-2] function: check string is palindrom or not [nayan]
+
+s-3] function: check string is anagram or not
+s-4] function: check string is subsequence or not
+s-5] function: check string is rotation of another string or not
+

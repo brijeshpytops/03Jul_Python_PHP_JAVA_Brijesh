@@ -1,0 +1,90 @@
+/*
+A string is an array of characters terminated by a null character ('\0'). The null character indicates the end of the string. C does not have a built-in string data type, so strings are represented using arrays of characters.
+
+syntax :
+
+char array_name[size] = "value";
+char array_name[size] = { 'm', 'o', 'n', 'd', 'a', 'y'};
+char str[] = "Hello, World!";
+*/
+
+Examples : 
+#include <stdio.h>
+
+int main() {
+    char company[100];
+    
+    printf("Enter a company name: ");
+    // scanf("%s", &company);
+    fgets(company, sizeof(company), stdin);
+    
+    printf("%s", company);
+    return 0;
+}
+
+
+String Operations: 
+
+concat:
+#include <stdio.h>
+#include <string.h>
+int main() {
+    char fname[100] = "brijesh";
+    char lname[] = "gondaliya";
+    strcat(fname, lname);
+    printf("%s", fname);
+    return 0;
+}
+
+copy:
+#include <stdio.h>
+#include <string.h>
+int main() {
+    char name[100];
+    char new_name[] = "brijesh";
+    strcpy(name, new_name);
+    printf("%s", name);
+    return 0;
+}
+
+
+Comparision:
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    char str1[] = "Hello";
+    char str2[] = "hello";
+    // H - 48
+    // W - 57
+
+    // Compare str1 and str2
+    int result = strcmp(str1, str2);
+    printf("%d", result);
+    if (result == 0) {
+        printf("Strings are equal\n");
+    } else {
+        printf("Strings are not equal\n");
+    }
+
+    return 0;
+}
+
+// Apple
+// apple
+
+string length find:
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    char str[] = "Hello, World!";
+
+    // Find the length of the string
+    int length = strlen(str);
+
+    // Print the length
+    printf("Length of the string: %d\n", length);
+
+    return 0;
+}
