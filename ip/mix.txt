@@ -154,7 +154,7 @@ s-7] function: count total characters in a given string
 s-8] function: count the number of vowels in the string.
 s-9] function: count the number of consonants in the string
 
-
+https://witzcode.pythonanywhere.com/blog-details/2394e2e9-c54d-48c4-b4b8-a8c0276c9117_blog
 
 Task 12] write a function:
 s-1] get the input from the user as string
