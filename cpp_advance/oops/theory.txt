@@ -1,0 +1,19 @@
+- class and objects
+- encapsulations
+    - access specifiers 
+    - constructor and destructor
+    - getter and setter methods
+- inheritance
+    - signle
+    - multi-level 
+    - multiple
+    - herarchiale
+    - hybrid
+- abstraction
+- polymorphism
+    - compile time(static binding)
+    - runtime (dynamic binding) - virtual function
+
+
+- inline function
+- friend function
