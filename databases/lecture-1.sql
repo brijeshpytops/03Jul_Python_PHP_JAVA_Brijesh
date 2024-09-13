@@ -25,6 +25,12 @@ Query OK, 0 rows affected (0.01 sec)
 mysql> show tables;
 Empty set (0.00 sec)
 
+-- export database
+mysqldump -u root -p insta > insta_db.sql
+
+-- import database
+mysql -u root -p instagram < insta_db.sql
+
 -- create table with column configuration
 mysql> create table users (
     -> user_id int primary key auto_increment,
