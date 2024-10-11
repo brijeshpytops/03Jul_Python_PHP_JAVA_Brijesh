@@ -9,3 +9,8 @@
 # right to left
 # print(list(range(10, 0, -1)))
 # print(list(range(10, 0, -2)))
+
+# Mix:
+# [-3,-2,-1,0,1,2,3]
+# print(list(range(3, -4, -1))[::-1])
+# print(list(range(-3, 4)))
