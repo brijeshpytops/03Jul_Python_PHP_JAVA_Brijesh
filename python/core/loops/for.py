@@ -102,10 +102,31 @@ for var in iterable_variable:
 #             print(" ", end=" ")
 #     print()
 
-num = 5
-g_var = 1
+# num = 5
+# g_var = 1
+# for row in range(1, num+1):
+#     for col in range(1, num+1):
+#         print(chr(g_var+64), end=" ")
+#         g_var+=1
+#     print()
+
+# * 
+# *   
+# * * *   
+# *       
+# * * * * *   
+# *           
+# * * * * * * *
+
+num = 9
+
 for row in range(1, num+1):
-    for col in range(1, num+1):
-        print(chr(g_var+64), end=" ")
-        g_var+=1
+    for col in range(1, row+1):
+        if row % 2 == 0:
+            if col == 1:
+                print("*", end=" ")
+            else:
+                print(" ", end=" ")
+        else:
+            print("*", end=" ")
     print()

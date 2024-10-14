@@ -70,6 +70,19 @@ for row in range(1, num+1):
 # *           *
 # * * * * * * *
 
+num = 9
+
+for row in range(1, num+1):
+    for col in range(1, row+1):
+        if row % 2 == 0:
+            if col == 1:
+                print("*", end=" ")
+            else:
+                print(" ", end=" ")
+        else:
+            print("*", end=" ")
+    print()
+
 # * * * * * 
 # *       *
 # *   1   *
