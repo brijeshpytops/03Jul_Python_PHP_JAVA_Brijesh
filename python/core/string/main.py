@@ -165,3 +165,19 @@ city = "Pune"
 # num = 10
 # for row in range(1, num+1):
 #     print(" "*(num-row), " *"*row)
+
+# name = "ystjadyh nmyhs kyautgub dsjYgf".lower()
+# empty_string = ''
+# for ch in name:
+#     if ch not in empty_string:
+#         empty_string += ch
+#         print(f"{ch} - {str(name.count(ch))}")
+# 
+
+# se = "this is a python code".split()
+# max = len(se[0])
+# for word in se:
+#     if len(word) > max:
+#         max = len(word)
+        
+# print(max)
