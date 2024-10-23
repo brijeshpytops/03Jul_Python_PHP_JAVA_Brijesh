@@ -1,0 +1,22 @@
+-> check installed moduels and packages
+>>> pip list/pip freeze
+
+-> install/uninstall moduels and packages
+>>> pip install <module-package-name>==X.0.0
+>>> pip uninstall <module-package-name>==X.0.0
+
+-> create your virtual env
+>>> python -m venv <env-name>
+
+-> activate/deactivate your virtual env
+>>> <env-name>\Scripts\activate
+>>> <env-name>\Scripts\deactivate
+
+-> create requirements.txt file in your base dir
+>>> type nul > requirements.txt
+
+-> add your modules and packages inside the requirements.txt
+>>> pip freeze > requirements.txt
+
+-> install moduels and packages from requirements.txt
+>>> pip install -r requirements.txt
